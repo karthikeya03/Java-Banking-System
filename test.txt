@@ -1,0 +1,4 @@
+javac --module-path "lib/javafx-sdk-21.0.10/lib" --add-modules javafx.controls -cp "lib/mysql-connector-j-9.6.0.jar" src/Main.java src/util/DBConnection.java src/model/*.java src/dao/*.java src/service/*.java src/ui/*.java
+
+java --module-path "lib/javafx-sdk-21.0.10/lib" --add-modules javafx.controls -cp "src;lib/mysql-connector-j-9.6.0.jar" Main
+
